@@ -14,10 +14,17 @@ export default new Router({
     {
       path: '/score',
       name: 'score',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/Score.vue')
+      component: () => import('@/views/Score.vue')
+    },
+    {
+      path: '/settings',
+      name: 'userSettings',
+      component: () => import('@/views/Settings.vue')
+    },
+    {
+      path: '/vote',
+      name: 'userVote',
+      component: () => import('@/views/Vote.vue')
     }
   ]
 })
