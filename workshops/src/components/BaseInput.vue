@@ -8,6 +8,7 @@
       @input="customInput"
       @change="logChange"
     >
+    <slot />
   </div>
 </template>
 

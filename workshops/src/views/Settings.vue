@@ -16,6 +16,14 @@
       @change="inputChanged"
       @customInput="customInput"
     />
+    <br>
+    <BaseInput
+      label="label for slot!"
+      value="slot"
+      type="button"
+    >
+      <b>&nbsp;hello from slot!</b>
+    </BaseInput>
   </div>
 </template>
 
