@@ -1,7 +1,10 @@
 <template>
   <div>
     This is score
-    <BaseButton label="asd" loading="true" />
+    <BaseButton
+      label="asd"
+      loading="true"
+    />
   </div>
 </template>
 
